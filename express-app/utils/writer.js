@@ -38,6 +38,7 @@ var writeJson = exports.writeJson = function(response, arg1, arg2) {
   if(typeof payload === 'object') {
     payload = JSON.stringify(payload, null, 2);
   }
+  response.setHeader('Access-Control-Allow-Origin', '*');
   response.writeHead(code, {'Content-Type': 'application/json'});
   response.end(payload);
 }

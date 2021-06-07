@@ -6,7 +6,8 @@ info:
     email: keenmedd@gmail.com
   version: 1.0.0
 servers:
-- url: https://virtserver.swaggerhub.com/keenmedd/API/1.0.0
+- url: http://localhost:1188
+# - url: https://virtserver.swaggerhub.com/keenmedd/API/1.0.0
   description: SwaggerHub API Auto Mocking
 paths:
   /doctor:
